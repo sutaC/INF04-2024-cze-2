@@ -1,11 +1,12 @@
 #!/bin/python
 
 class Album:
-    artist: str
-    album: str
-    songsNumber: int 
-    year: int
-    downloadNumber: int
+    def __init__(self) -> None:
+        self.artist: str
+        self.album: str
+        self.songsNumber: int 
+        self.year: int
+        self.downloadNumber: int
 
 # **********************************************
 # nazwa funkcji: readAlbums
